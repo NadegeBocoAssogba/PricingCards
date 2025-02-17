@@ -4,13 +4,13 @@
   padding: 0;
 }
 
-section {
-  width: 800px;
-  height: 750px;
+body {
+  height: 100vh;
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: center;
   background-color: aqua;
+  gap: 40px;
 }
 
 /* Div .blanche */
@@ -72,6 +72,7 @@ ul li {
   height: 5S0px;
   display: flex;
   flex-direction: column;
+  box-shadow: 0px 10px 20px rgba(25, 13, 13, 0.323);
 }
 .Pro {
   margin-top: 50px;
